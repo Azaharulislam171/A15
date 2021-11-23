@@ -1,0 +1,209 @@
+/*Mohammad Azaharul Islam
+A11
+Due Date: 11/03/2021
+ */
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  float:left;
+  margin-right: 1em;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 800px;
+  margin: 0 auto;
+  border: 3px solid #931420;
+  background-color: #fffded;
+}
+
+/* ----STEP- 4 ---- */
+html {
+  background-color: white;
+}
+
+/* ----STEP- 5 ---- */
+header {
+  border-bottom: 3px solid #931420;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  background-image: linear-gradient(30deg,#f6bb73 25%,white);
+}
+header h2{
+  font-size: 170%;
+  color: #800000;
+}
+header h3{
+  font-size: 130%;
+  font-style: italic;
+
+}
+
+.shadow{
+  text-shadow:2px 2px 2px #800000;
+}
+
+main section{
+  width:525px;
+  float: right;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+main aside{
+  width:215px;
+  float:right;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+main section h2 {
+  font-size: 130%;
+  color: #931420;
+  padding-top: .5em;
+  padding-bottom: .25em;
+}
+main aside h2 {
+  font-size: 130%;
+  color: #931420;
+  padding-top: .5em;
+  padding-bottom: .25em;
+
+}
+
+main aside h3 {
+  font-size: 105%;
+  padding-bottom: .25em;
+}
+main img{
+  padding-top: 1em;
+  padding-bottom: .25em;
+}
+
+main aside img {
+  padding-bottom: 1em;
+}
+
+main p {
+  padding-bottom: .5em;
+}
+
+
+.quotes {
+  padding-right: 2em;
+  padding-left: 2em;
+  font-style: italic;
+}
+
+main ul {
+  padding-bottom: .25em;
+  padding-left: 1.25em;
+}
+
+main li {
+  padding-bottom: .35em;
+}
+a:hover,a:focus{
+  font-style: italic;
+}
+
+footer{
+  background-color: #931420;
+  clear:both;
+}
+footer p {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+h1{
+  font-size: 150%;
+  padding-top: .5em;
+  padding-bottom: .25em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+article{
+ padding-top: .5em;
+  padding-bottom: .5em;
+  border-top-color: 2 px solid #800000;
+  border-bottom: 2 px solid #800000;
+}
+article img{
+  float:right;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border:1px solid black;
+}
+article h2{
+  padding-top: 0;
+}
+article h3{
+  font-size: 105%;
+  padding-bottom: .25em;
+}
+article hr{
+  color: yellow;
+}
+section h1{
+  font-size: 145%;
+  color:green;
+  padding-top:.5em ;
+  padding-bottom: .25em;
+  margin-top:0;
+  margin-bottom: 0;
+
+}
+#speaker{
+  font-size: 100%;
+  color:gray;
+}
+#nav_menu ul{
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#nav_menu ul li{
+  float:left;
+}
+#nav_menu ul li a{
+  display: block;
+  width: 125px;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  background-color: #800000;
+  color: white;
+  font-weight: bold;
+}
+#nav_menu ul li a.current{
+  color:yellow;
+}
+#nav_menu ul ul{
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+#nav_menu ul ul li{
+  float: none;
+}
+#nav_menu ul li:hover>ul{
+  display: block;
+}
+#nav_menu>ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.circle{
+  list-style-type: circle;
+}
